@@ -1,0 +1,65 @@
+Todays Lecture Agenda : 
+
+Variable :
+
+Variable is type of Container which stores the type of data 
+
+what are the types of variables in java : 
+
+1> Local Variable 
+2> Instance Variable / global variable
+
+what is the syntax to declared variables : 
+
+ Datatype VariableName = value;
+
+    ex :  int employeeId = 234;
+    ex :  String myName = "Kanchan@123";
+
+
+Naming Convention Rules for Variable : 
+
+1> cannot used keywords as variable name
+2> cannot start with numbers 
+3> start with _ , $ or start with lowercase then uppercase
+4> duplication of variable is not Allowed 
+5> variable name should be logical 
+
+
+Local
+
+1> write inside method
+2> Initialization is Compulsory
+3> it Doesn't have Default Size 
+4> valid inside method 
+
+Global
+
+1> write inside class outside method 
+2> Initialization is NOT Compulsory 
+3> it have Default Size ex(String = null , int = 0 , boolean = false)
+4> valid inside whole class  
+   
+    
+ Task : 
+
+Print with Logical Statement : 
+
+Employee Local V = 10 
+Student Local V = 7
+Library Local V = 5 
+Vehicle Local V = 6
+Hospital Local V = 6
+  
+ 
+
+
+
+
+
+
+
+
+ 
+
+

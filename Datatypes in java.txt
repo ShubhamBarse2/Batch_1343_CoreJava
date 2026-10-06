@@ -1,0 +1,79 @@
+ 
+Data Types in java :
+
+Data types define what kind of data a variable can store in Java.
+Java is a strongly typed language, which means you must declare the data type before using any variable.
+
+Example:
+int age = 25;
+
+
+
+Types of Data Types in Java : 
+
+Java data types are divided into two major categories:
+
+A. Primitive Data Types
+B. Non-Primitive Data Types
+
+
+
+A. Primitive Data Types : 
+(8 data types provided by Java)
+
+ 
+(Integer)
+1. byte 
+2. short 
+3. int 
+4. long 
+
+
+(Points Values)
+5. float 
+6. double
+
+7. char 
+8. boolean  
+
+
+
+
+for Primitive DataTypes : 
+
+Example : 
+
+
+
+package com.jbk;
+
+public class Student {
+
+	public static void main(String[] args) {
+
+		byte age = 23;
+		short seatNumber = 23346;
+		int pinCode = 23456784;
+		long adharNo = 232345678908634l;
+
+		float height = 6.5f;
+		double marks = 99.99;
+
+		boolean checkPassed = true;
+
+		char specialSymbol = '@';
+
+		System.out.println("Student Age is =  " + age);
+		System.out.println("Student Seat No is =  " + seatNumber);
+		System.out.println("Student Pincode is =  " + pinCode);
+		System.out.println("Student adharNo is =  " + adharNo);
+		System.out.println("Student height is =  " + height);
+		System.out.println("Student marks is =  " + marks);
+		System.out.println("Student Pass/Fail is =  " + checkPassed);
+		System.out.println("Student specialSymbol is =  " + specialSymbol);
+
+	}
+
+}
+
+

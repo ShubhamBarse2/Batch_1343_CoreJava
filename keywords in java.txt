@@ -1,0 +1,63 @@
+
+
+Todays Lecture Agenda : 
+
+
+In Java, keywords are special reserved words that have a predefined meaning in the language. These words are part of Java’s syntax and structure. Because they are reserved, we cannot use them as identifiers, such as class names, variable names, method names, or package names.
+
+Java keywords help the compiler understand what action to perform, such as creating classes, defining methods, performing conditions, loops, exception handling, memory management, and more.
+
+
+
+Key Properties of Keywords
+
+✔ Reserved words – cannot be used as identifiers
+✔ Predefined meaning – each keyword has a specific role
+✔ Always written in lowercase
+✔ Total keywords: 67 (including literals and future reserved words)
+✔ Belong to different categories based on usage
+
+ 
+
+Grouping of Keywords : 
+
+1> Control Flow Statement 
+if, else, switch , case , for , while , do etc....
+
+2> Classes & Objects
+class , super , this , interface , abstract , extends , implements etc
+
+3> Package & Import 
+package , import 
+
+4> Exception Handling 
+try , catch , finally ,  throw , throws etc 
+
+5> for Methods
+static ,void , return , final , synchronized etc 
+ 
+6> Access Specifier (Modifier) 
+public , private , protected , default  etc
+
+7> others
+enum , goto , etc ..  
+
+
+
+
+
+
+
+
+
+
+1st Program of java :
+
+1> Create class -> public  , class  
+
+2> Write Main Methods -> public , static , void 
+
+3> write SYSO  
+
+
+

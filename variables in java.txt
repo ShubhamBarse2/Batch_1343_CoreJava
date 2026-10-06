@@ -1,0 +1,79 @@
+
+
+What is a Variable?
+
+A variable is a container used to store data in a program.
+ The value of a variable can change during program execution.
+
+
+Syntax
+
+dataType variableName = value;
+
+
+Rules for Naming Variables :
+
+
+Must start with a letter, _ or $
+Cannot start with a number
+No spaces allowed & and Duplicates
+Keywords are not allowed
+Case-sensitive (age and Age are different)
+
+Valid: studentName, _count, $price
+Invalid: 1num, total marks, int
+
+
+
+
+Types of Variables in Java
+
+
+ 1> Local Variable
+Declared inside a method
+
+Must be initialized before use
+
+void show() {
+    int x = 10;
+}
+
+
+2> Instance Variable (Global Variable)
+
+Declared inside class but outside methods
+Object-level variable
+
+class Student {
+    int rollNo;
+}
+
+
+Variable Initialization
+
+int a;      // declaration
+a = 10;     // initialization
+
+
+int a = 10; // declaration + initialization
+
+
+
+Why Variables Are Needed?
+
+To store data
+To reuse values
+To perform operations
+To make programs dynamic
+
+
+
+
+
+Create 5 classes with meaningful name : 
+in each class contains 7 variables with proper naming Conventions 
+display using message 
+
+
+
+
