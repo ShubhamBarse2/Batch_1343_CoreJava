@@ -1,0 +1,71 @@
+Todays Lecture Agenda : 
+
+Operator in java : 
+
+Operator is an special symbol which used to performed operation on values or operands 
+
+like as --> + , - , * , > , < % , / = etc  
+
+
+Operator --> special type symbol --> DR    --> +
+Operand  --> value / data   -- > patient   --> 3 , 5
+operation --> process / task  --> heart operation  --> addition
+
+
+type of operators base on Operand : 
+
+1.unary (single operand) --> i++
+2.binary (two operands)  --> 4+3
+3.ternary (three operands) --> 5+6+7
+
+
+type of operators base on Operation : 
+
+Arithmetic 
+Relational / Comparison 
+Logical 
+Assignment 
+Increment 
+Decrement 
+Bitwise 
+MISC
+
+
+
+Arithmetic Operator : 
+
+Arithmetic operator r used to performed mathematical calculations on operands  
+
++  -> add
+-  -> sub
+*  -> mul
+/  -> div  --> Q
+%  -> mod  --> R
+
+
+Relational/Comparison Operator : 
+
+it is used to compared two values
+result --> Boolean(true/false) 
+
+==  --> Equals Equals to (values)   
+!=  --> Not Equals to 
+
+>   --> Greater than   
+<   --> Less than
+
+>=  --> Greater than equals to 
+<=  --> less than equals to 
+
+
+
+
+
+
+
+
+
+
+
+
+
