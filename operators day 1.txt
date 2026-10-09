@@ -1,0 +1,138 @@
+Todays Lecture Agenda : 
+
+
+Operators : 
+
+
+Operator is an special type of symbol : 
+Operators are used to performed operation on variables & values : 
+
+
+
+
+Operators : A symbol that performs an action(+)              ---->                Doctor
+
+
+Operation : The process or task being performed (Addition)   ---->                Surgery 
+
+
+operands :  The data or value on which the operator acts(10,20)    ---->          Patient 
+
+
+
+
+Operators : 
+
+Performed Operation : 
+
+1.Arithmetic (binary)
+2.Relational / comparison 
+3.assignment 
+4.bitwise 
+5.logical
+6.increment & decrement (unary)  
+7.misc  
+
+
+operators : types of operators if we consider no of operands      
+
+int a,b;
+a=3,b=8;
+
+a++;
+
+unary    : operates on single operands  : a++
+binary   : operates on 2 operands       : a+b
+ternary  : operates on  3 operands      : a+b+c 
+
+
+
+
+
+
+1. Arithmetic Operator (Binary Operator):
+
+are used to performed Mathematical Operations : 
+ 
++ -> Addition
+- -> Subtraction 
+* -> Multiplication
+/ -> Division      -> Quotient
+% -> Modulas      -> Remainder
+
+
+
+
+
+
+ref code : 
+
+
+
+
+
+package com.tka;
+
+public class Day1 {
+
+	public static void main(String[] args) {
+
+		int a = 20;
+		int b = 10;
+
+		int d = a + 2;
+
+		int c = a / b; // = 20/10 = 2
+
+//		System.out.println("Addition of " + a + " + " + b + " = " + c); // 30
+//		System.out.println("Sub of " + a + " - " + b + " = " + (a - b)); // 10
+//		System.out.println("Mul of " + a + " * " + b + " = " + (a * b)); // 200
+		System.out.println("Div of " + a + " / " + b + " = " + (d / c) + " Quotient"); // 2
+		System.out.println("Mod of " + a + " % " + b + " = " + (c % b) + " Remainder"); // 0
+
+	}
+
+}
+
+
+
+
+
+
+
+
+try this one : 
+
+Homework : 
+
+
+int a = 40;
+syso(a+20);   //60
+int b = 20; 
+syso(a+b);  // 60
+int c = a+b;  // 60
+syso(c/a);    // 1 
+int d = c%2;  // 0
+syso(d+3);   // 3
+syso(d/c);  // 0
+
+
+
+
+mail me on this email id :
+1320@thekiranacademy.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
