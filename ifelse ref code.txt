@@ -1,0 +1,133 @@
+Todays Lecture Agenda :
+
+Conditional statement : 
+
+Types of if else : 
+
+1. simple if statement 
+2. if else statement 
+3. if else ladder 
+4. nested if 
+5. nested if else 
+6. nested if else ladder 
+
+keywords -->  if else for continue break while do etc 
+
+syntax :
+ 
+condition --> Boolean --> true/false  --> (Comparison(==,!=,<,>,<=,>=)/logical(&&,||,!))
+
+int age = 244;
+if(age >= 18 && age <= 120){
+  // LOC 
+u r eligible for voting 
+}else{
+u r not eligible for voting 
+}
+
+
+
+ref code : 
+
+
+package com.tka;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+//		int age = 179;
+//
+//		if (age >= 18 && age <= 120) {
+//			System.out.println("u r eligible for voting ... !");
+//		} else {
+//			System.out.println("NOT ELIGIBLE ...!");
+//		}
+
+//		Signal
+
+//		String userName = "ram@gmail.com";
+//		String password = "Ram@123";
+//
+//		if (userName == "ram@gmail.com" && password == "Ram@123") {
+//			System.out.println("Login Successfully ...!");
+//		} else {
+//			System.out.println("Invalid Credentials ...!");
+//		}
+
+		// Signal red green yellow
+
+//		String clr = "Yellow";
+//
+//		if (clr == "Red") {
+//			System.out.println("STOP ...! ");
+//		} else if (clr == "Yellow") {
+//			System.out.println("READY TO GO ...! ");
+//		} else if (clr == "Green") {
+//			System.out.println("GO ...! ");
+//		} else {
+//			System.out.println("invalid clr ...!");
+//		}
+//
+//		int marks = 68;
+//
+//		if (marks >= 90 && marks <= 100) {
+//			System.out.println("A Grade");
+//		} else if (marks >= 80 && marks <= 89) {
+//			System.out.println("B Grade");
+//		} else if (marks >= 70 && marks <= 79) {
+//			System.out.println("C Grade");
+//		} else if (marks >= 60 && marks <= 69) {
+//			System.out.println("D Grade");
+//		} else if (marks >= 50 && marks <= 59) {
+//			System.out.println("E Grade");
+//		} else {
+//			System.out.println("U r Failed ...! ");
+//		}
+
+//		if (6 == 67){ System.out.println("A");
+
+//		if (true || !(true)) {
+//			System.out.println("hii ");
+//			if (true && false) {
+//				System.out.println("Hlw");
+//			} else {
+//				System.out.println("bye ... ! ");
+//			}
+//		} else {
+//			System.out.println("good bye ...!");
+//		}
+
+//		int age = 45;
+//		int creditScore = 800;
+//		int salary = 45000;
+////
+//		if (age >= 24) {
+//			System.out.println("u can apply for loan process ");
+//			if (salary > 35000) {
+//				System.out.println("u r eligible for getting loan upto 30LPA");
+//			} else if (creditScore >= 700) {
+//				System.out.println("u r eleligble for getting Loan upto 25LPA");
+//			} else {
+//				System.out.println("Not eligible ... !");
+//			}
+//		} else {
+//			System.out.println("Age must be greater than 23");
+//		}
+////
+//	}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
