@@ -1,0 +1,236 @@
+	Syntax : 
+
+		4. nested if statement :
+
+		    if(){
+
+		       if(){
+
+		           }
+		    
+		   }
+
+		5. nested if-else statement :
+
+		if(){
+
+		       if(){
+
+		           }else{
+
+		      }
+		    
+		   }
+
+
+
+
+
+
+		ref code : 
+
+
+	public static void main(String[] args) {
+
+//		if (false || true && true) {
+//			System.out.println("RRR");
+//		} else if (true || true) {
+//			System.out.println("Tere Naam");
+//		} else {
+//			System.out.println("Ready ");
+//		}
+//	}
+
+//		if (10 > 8 || 9 != 1 && 10 == 10) {
+//			System.out.println("RRR");
+//		} else if (true || 1 >= 0) {
+//			System.out.println("Tere Naam");
+//		} else {
+//			System.out.println("Ready ");
+//		}
+//	}
+
+//		int marks = 888;
+//
+//		if (marks >= 90 && marks <= 100) {
+//			System.out.println("Grade A");
+//		} else if (marks >= 80 && marks < 90) {
+//			System.out.println("Grade B");
+//		} else if (marks >= 70 && marks < 80) {
+//			System.out.println("Grade C");
+//		} else if (marks >= 60 && marks < 70) {
+//			System.out.println("Grade D");
+//		} else if (marks >= 50 && marks < 60) {
+//			System.out.println("Grade E");
+//		} else {
+//			System.out.println("Grade F -> Fail ... !");
+//		}
+
+		// nested if statement :
+
+//		if (true) {
+//			System.out.println("RRR");
+//			if (false) {
+//				System.out.println("Tere Naam");
+//			}
+//		}
+
+		// nested
+
+//		if (true) {
+//			System.out.println("RRR");
+//			if (false) {
+//				System.out.println("Tere Naam");
+//			} else {
+//				System.out.println("Holiday");
+//			}
+//		} else {
+//			System.out.println("Time Story ");
+//		}
+
+//		if (true) {
+//			System.out.println("RRR");
+//			if (true && true) {
+//				System.out.println("Tere Naam");
+//				if (true || false) {
+//					System.out.println("PK");
+//				}
+//			} else if (true) {
+//				System.out.println("Holiday");
+//			} else {
+//				System.out.println("WWW");
+//			}
+//		} else {
+//			System.out.println("Time Story ");
+//		}
+//	}
+
+//		if (10 > 56 || 10 < 8) {
+//			System.out.println("RRR");
+//			if (10 == 10 && true) {
+//				System.out.println("Tere Naam");
+//				if (true || 45 != 0) {
+//					System.out.println("PK");
+//				}
+//			} else if (3 == 3) {
+//				System.out.println("Holiday");
+//			} else {
+//				System.out.println("WWW");
+//			}
+//		} else {
+//			System.out.println("Time Story ");
+//		}
+//	}
+
+//		int age = 56;
+//		double salary = 49000;
+//
+//		if (age >= 18) {
+//			System.out.println("1st Stage Clear move to Next Step");
+//			if (salary >= 45000) {
+//				System.out.println("Loan Approved ...!");
+//			} else {
+//				System.out.println("Sorry >>> ! ");
+//			}
+//		} else {
+//			System.out.println("UR NOT ELIGIBLE ... !");
+//		}
+//
+	}
+
+
+
+
+
+
+
+
+
+Practise Questions based on If else : 
+
+Write a Java program to check if a number is positive.
+Write a program to check if a number is divisible by 5.
+Write a program to check if a number is greater than 100.
+Write a program to check if a character is uppercase.
+Write a program to check if a person is eligible for voting (age ≥ 18).
+
+Write a program to check whether a number is even or odd.
+Write a program to find the greater number between two numbers.
+Write a program to check whether a number is positive or negative.
+Write a program to check whether a character is vowel or consonant.
+Write a program to check whether a number is divisible by 2 or not.
+
+
+
+Write a program to find the largest among three numbers.
+Write a program to display grade based on marks.
+Example condition:
+Marks ≥ 75 → Distinction
+Marks ≥ 60 → First Class
+Marks ≥ 50 → Second Class
+Marks ≥ 35 → Pass
+Otherwise → Fail
+
+Write a program to check whether a character is vowel, consonant, digit, or special character.
+Write a program to display day name based on day number (1–7).
+Write a program to calculate electricity bill based on units.
+Example:
+0–100 → ₹5 per unit
+101–200 → ₹7 per unit
+Above 200 → ₹10 per unit
+
+
+Write a program to check whether a number is positive and even.
+Write a program to check whether a person is eligible for a loan.
+Conditions :
+Age ≥ 21
+Salary ≥ 25000
+Write a program to check whether a year is a leap year.
+Write a program to check login authentication (username and password).
+Write a program to check whether a number is divisible by both 3 and 5.
+
+
+
+ATM Withdrawal
+Input: balance, withdrawal amount
+Conditions:
+If balance sufficient
+If amount % 100 == 0 → allow
+Else → invalid denomination
+Else → insufficient balance
+
+
+Electricity Bill
+Input: units
+Conditions:
+If units ≤ 100 → ₹5/unit
+Else:
+If ≤ 200 → ₹7/unit
+Else → ₹10/unit
+
+Student Grade System
+Input: marks
+Conditions:
+If ≥ 40 → Pass
+If ≥ 90 → A
+Else if ≥ 75 → B
+Else → C
+Else → Fail
+
+
+Online Shopping Discount
+Input: amount, membership (yes/no)
+Conditions:
+If amount > 1000
+If member → 20% discount
+Else → 10%
+Else → no discount
+
+
+Age Category + Ticket Price
+Input: age
+Conditions:
+If age ≥ 18
+If age ≥ 60 → Senior discount
+Else → Normal price
+Else → Child ticket
