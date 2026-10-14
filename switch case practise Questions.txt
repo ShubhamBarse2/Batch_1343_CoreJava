@@ -1,0 +1,159 @@
+Practise Questions Based on switch case statements : 
+
+
+1. Print Day Name
+
+Write a program to print the day name using a number.
+
+Example
+1 → Monday
+2 → Tuesday
+
+2. Print Month Name
+
+Write a program to print month name based on number (1–12).
+
+Example
+1 → January
+2 → February
+
+3. Simple Calculator
+
+Create a calculator using switch case for operations:
+
+1 → Addition
+2 → Subtraction
+3 → Multiplication
+4 → Division
+4. Vowel or Consonant
+
+Write a program to check whether a character is a vowel or consonant using switch.
+
+Example
+a,e,i,o,u → Vowel
+
+5. Grade System
+
+Write a program to print grade description.
+
+A → Excellent
+B → Good
+C → Average
+D → Pass
+F → Fail
+6. Even or Odd
+
+Write a program to check even or odd using switch case.
+
+Hint: use number % 2
+
+7. Menu Driven Program
+
+Create a menu like:
+
+1 → Login
+2 → Register
+3 → Profile
+4 → Logout
+8. Print Week Type
+
+Check if the day is Weekend or Weekday.
+
+Example
+
+1–5 → Weekday
+6–7 → Weekend
+9. Arithmetic Operator Program
+
+Write a program using switch where operator is:
+
++ - * /
+
+Perform the operation.
+
+10. Area Calculator
+
+Calculate area using switch.
+
+1 → Circle
+2 → Rectangle
+3 → Square
+11. Print Language Name
+
+Input language code and print name.
+
+1 → Java
+2 → Python
+3 → C++
+4 → JavaScript
+12. Traffic Signal Program
+
+Print traffic signal message.
+
+Red → Stop
+Yellow → Ready
+Green → Go
+13. Print Number in Words
+
+Convert numbers into words.
+
+1 → One
+2 → Two
+3 → Three
+4 → Four
+5 → Five
+14. Student Department
+
+Print department name.
+
+1 → Computer Science
+2 → Mechanical
+3 → Civil
+4 → Electrical
+15. Season Finder
+
+Print season based on month number.
+
+Example
+
+12,1,2 → Winter
+3,4,5 → Summer
+6,7,8 → Monsoon
+16. Mobile Menu
+
+Create a mobile settings menu.
+
+1 → WiFi
+2 → Bluetooth
+3 → Mobile Data
+4 → Airplane Mode
+17. Character Type
+
+Check character type.
+
+A-Z → Uppercase
+a-z → Lowercase
+0-9 → Digit
+18. Food Menu Program
+
+Create food menu.
+
+1 → Pizza
+2 → Burger
+3 → Sandwich
+4 → Pasta
+19. Print Result Status
+
+Based on marks category.
+
+1 → Pass
+2 → Distinction
+3 → Fail
+20. ATM Menu Program
+
+Create ATM options.
+
+1 → Check Balance
+2 → Withdraw
+3 → Deposit
+4 → Exit
