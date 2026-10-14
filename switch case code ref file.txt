@@ -1,0 +1,149 @@
+package com.jbk;
+
+public class Day1 {
+
+	public static void main(String[] args) {
+
+//		int num = 400;
+//
+//		switch (num) {
+//
+//		case 1:
+//			System.out.println("One ");
+//			break;
+//		case 2:
+//			System.out.println("two ");
+//			break;
+//		case 3:
+//			System.out.println("Three ");
+//			break;
+//		case 4:
+//			System.out.println("Four ");
+//            break;
+//		default:
+//			System.out.println("Invalid No");
+//		}
+
+		// Signal :
+
+//		String clr = "Orange";
+//
+//		switch (clr) {
+//
+//		case "Red":
+//			System.out.println("Stop ... ! ");
+//			break;
+//
+//		case "Yellow":
+//			System.out.println("Ready to Go ... !");
+//			break;
+//		case "Green":
+//			System.out.println("Go ... !");
+//			break;
+//
+//		default:
+//			System.out.println("Invalid Input ... !");
+//
+//		}
+
+//		char grade = 'B';
+//
+//		switch (grade) {
+//		case :
+////			System.out.println("Range ---> 90 - 100 --> 'Excellent' ");
+//			break;
+//		case 'B':
+//			System.out.println("Range ---> 80 - 90 --> 'V Good' ");
+//			break;
+//		case 'C':
+//			System.out.println("Range ---> 70 - 80 --> 'Good' ");
+//			break;
+//		case 'D':
+//			System.out.println("Range ---> 60 - 70 --> 'Average' ");
+//			break;
+//		case 'E':
+//			System.out.println("Range ---> 50 - 60 --> 'need to Improve' ");
+//			break;
+//
+//		default:
+//			System.out.println("Fail betr luck next Time ... ! ");
+//		}
+
+//		int marks = 25;
+//
+//		switch (marks / 10) {
+//		case 9:
+//			System.out.println("(A) ---> Range ---> 90 - 100 --> 'Excellent' ");
+//			break;
+//		case 8:
+//			System.out.println("Range ---> 80 - 90 --> 'V Good' ");
+//			break;
+//		case 7:
+//			System.out.println("Range ---> 70 - 80 --> 'Good' ");
+//			break;
+//		case 6:
+//			System.out.println("Range ---> 60 - 70 --> 'Average' ");
+//			break;
+//		case 5:
+//			System.out.println("Range ---> 50 - 60 --> 'need to Improve' ");
+//			break;
+//
+//		default:
+//			System.out.println("Fail betr luck next Time ... ! ");
+//		}
+
+		// Even NO : ODD :
+
+//		int num = 20;
+//
+//		switch (num % 2) {
+//
+//		case 0:
+//			System.out.println(num + " No is Even ");
+//			break;
+//		case 1:
+//			System.out.println(num + " No is Odd");
+//		}
+//
+//		String month = "aug";
+//
+//		switch (month) {
+//		case "jan", "feb", "mar":
+//			System.out.println("1st Quater ");
+//			break;
+//		case "april", "may", "june":
+//			System.out.println("2st Quater ");
+//			break;
+//
+//		case "jully", "aug", "sept":
+//			System.out.println("3rd Quater ");
+//			break;
+//		case "oct", "nov", "dec":
+//			System.out.println("4th Quater ");
+//			break;
+//		default:
+//			System.out.println("Invalid Input ... ! ");
+//		}
+
+//		int choise = 1;
+//
+//		switch (choise) {
+//		case 1:
+//			System.out.println("Register ... !");
+//			break;
+//		case 2:
+//			System.out.println("Login ... ! ");
+//			break;
+//		case 3:
+//			System.out.println("Profile ... ! ");
+//			break;
+//		case 4:
+//			System.out.println("Loguot ");
+//			break;
+//		default:
+//			System.out.println("Exit ... ! ");
+//		}
+
+	}
+
+}
