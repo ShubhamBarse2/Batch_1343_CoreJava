@@ -1,0 +1,33 @@
+Practise Questions : 
+
+Print a square pattern of * (size n) using nested loops.
+Print a right-angle triangle of * using nested loops.
+Print numbers from 1 to 5 in each row (5 rows) using nested loops.
+Print a pattern where even rows print * and odd rows print #.
+
+
+Print a pattern of numbers where:
+
+1
+22
+333
+4444
+
+Print a multiplication table from 1 to 5 using nested loops.
+Print only even numbers between 1 to 50 using nested loops and if-else.
+
+Print a pattern where:
+
+1 0 1
+0 1 0
+1 0 1
+
+(Use if-else to decide 1 or 0)
+
+Print a pyramid pattern:
+
+    *
+   ***
+  *****
+ *******
+Print a pattern where prime numbers are printed in a matrix (e.g., 5x5), and non-prime numbers are replaced with X.
