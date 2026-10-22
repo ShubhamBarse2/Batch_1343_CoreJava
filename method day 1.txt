@@ -1,0 +1,108 @@
+Methods in java :
+
+what is method : 
+method is an block of code which is used to performed operations 
+
+Definition :
+A method is a collection of statements grouped together to perform an operation.
+
+
+reference from main method : 
+
+main methods : 
+
+syntax :
+
+public static void main(String args[]){
+
+}
+
+note : void keyword --> it defined method cannot return anything 
+
+
+syntax : 
+
+AccessSpecifier ReturnType MethodName() {
+
+}
+
+
+return type : primitive datatype , Non - primitive data type (void)
+
+
+public int myAddition() {
+
+
+}
+
+
+
+
+MethodName : 
+
+Naming Conventions rules to declared an method : 
+
+1. cannot used keyword as method name 
+2. cannot start with numbers (special symbol) 
+3. method name should be logical 
+4. space not allowed 
+5. first start with lowercase then uppercase(myInfo , myStatus...)
+
+ 
+Types of methods in java : 
+
+(based on return type , based on parameter)
+
+
+1. parameterised method with return type
+2. parameterised method without return type 
+3. Non-parameterised method with return type
+4. Non-parameterised method without return type  
+
+
+note : method should be called n no of by using object creation : 
+
+
+
+why methods : 
+
+Code reuse
+Code readability
+Reduces duplication
+Easy debugging
+Easy modification of logic
+
+
+
+Questions : 
+
+1. Fibonacci series  
+2. even odd series 
+3. reverse no 
+4. check palindrome no 
+5. star pattern 
+6. Prime No
+7. Myinfo(15 V)
+
+
+1. Write a method to print your name (no return, no parameters).
+Create method to print your name
+Create method to add two numbers
+Create method to check even or odd
+Create method to find square of number
+Create method to return largest of two numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
