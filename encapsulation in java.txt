@@ -1,0 +1,248 @@
+What is Encapsulation ?
+
+Encapsulation is an main pilers of OOP 
+Encapsulation is a process of binding data (variables) and methods (functions) into a single unit (class) and controlling access to the data using access modifiers(private).
+
+it provides features : 
+
+Data Hiding
+Data Security
+Controlled Access
+Achieved by Private Variables + Public Getters/Setters
+
+
+Real life example : Medicine Capsule 
+
+why Encapsulation :
+
+To hide sensitive data from outside world
+To protect data from unauthorized access
+To provide a controlled way to access/modify data
+Reduces error – improves security
+Helps in writing clean, maintainable code
+
+
+
+How Encapsulation Works?
+
+Encapsulation = private variables + public getters & setters
+
+private → restricts direct access
+getter() → only returns value
+setter() → sets value with validation (business logic)
+
+
+
+Advantages of Encapsulation : 
+
+Data hiding → Secure data
+Code flexibility → getter/setter control access
+Improved maintainability
+Better security
+Easy debugging and testing
+
+
+note : Encapsulation is a technique in Java where we make variables private and provide public getter and setter methods to access and modify them safely.
+
+
+
+
+syntax : 
+
+
+
+class ClassName {
+
+    // 1. private data members
+
+    private datatype variableName;
+
+    // 2. public getter method
+
+    public datatype getVariableName() {
+        return variableName;
+    }
+
+    // 3. public setter method
+
+    public void setVariableName(datatype variableName) {
+        this.variableName = variableName;
+    }
+}
+
+
+
+
+
+Example : 
+
+
+
+
+class Student {
+    private int id;
+    private String name;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+
+
+
+
+example 2 :
+
+
+package com.tka;
+
+public class Employee {
+
+//	1. firstly declared variable as private 
+
+	private int empId; 
+	private String name;
+	private double salary;
+
+	// 2. generate public getter & setter of this variables
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+}
+ 
+
+package com.tka;
+
+public class EmployeeDetails {
+
+	public static void main(String[] args) {
+
+		Employee e = new Employee();
+		System.err.println("Employee Informations ...! ");
+		e.setEmpId(13);
+		e.setName("rahul");
+		e.setSalary(45000);
+		System.out.println("Employee ID = " + e.getEmpId());
+		System.out.println("Employee Name = " + e.getName());
+		System.out.println("Employee Salary = " + e.getSalary());
+
+	}
+
+}
+
+
+
+
+
+example 3 : 
+
+
+package com.tka;
+
+public class Instagram {
+
+	private String userName;
+	private String password;
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}
+
+
+
+
+package com.tka;
+
+public class Meta {
+
+	public static void main(String[] args) {
+
+		Instagram insta = new Instagram();
+		insta.setUserName("om@gmail.com");
+		insta.setPassword("om@123");
+
+		System.out.println(insta.getUserName());
+		System.out.println(insta.getPassword());
+
+	}
+
+}
+
+
+
+
+practise Questions  :
+
+
+
+
+
+1. Create a class with private variables
+
+Question:
+Create a class Person with private variables name and age.
+Add setter and getter methods.
+Create an object and print the name and age.
+
+2. Bank Account – deposit & withdraw
+
+Question:
+Create a BankAccount class with a private balance.
+Add:
+deposit(double amount)
+withdraw(double amount)
+getBalance()
+
+
+
+
