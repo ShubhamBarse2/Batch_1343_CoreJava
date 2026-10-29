@@ -1,0 +1,132 @@
+Todays Lecture Agenda : 
+
+Constructor in java : 
+
+1. Constructor is an special type of method whose name is same as class Name.
+2. it looks like an method but does not have return type.
+3. when we create an object of class then constructor will get automatically called .
+4. there are two types constructor in java 
+
+1> non-parameterised Constructor / NO args Constructor  / default Constructor 
+2> Parameterised Constructor / args Constructor
+
+when we cannot declared any constructor in java then system(Compiler) will provide u default constructor.
+
+suppose if we provide return type to the constructor then it will become method
+Constructor is used to initialized object.
+
+syntax : 
+
+
+AccessSpecifier ClassName(){
+
+}
+
+
+example : 
+
+public class Employee {
+
+
+public Employee(){
+
+syso("this is Constructor");
+
+   }
+}
+
+
+
+Student s = new Student();
+s.m1();
+
+
+we have methods then why we used constructor?
+
+-> suppose if u want to execute anything before method then that code write inside constructor 
+
+
+why constructor have same name as className? 
+
+-> Constructor have whole information about the particular class bcz of this contr have same as class name 
+
+
+deff betn method & contr :
+
+                      method               constructor 
+
+return type            yes                    no
+Name                   anyName               ClassName
+called                 explicitly            automatically 
+firstly call           no                     yes
+
+
+Question : 
+
+create an class with Name myPortFolio --> create an constructor and print whole info about u
+create an class with Name Car --> create an constructor and print whole info about car and also add one method 
+create an class with Name Employee --> create an constructor and print whole info about employee also add method (salary)
+create an class with Name Student --> create an constructor and print whole info about Student 
+
+
+
+ref code :
+
+
+
+package com.tka;
+
+public class Student {
+
+//	public void m1() {
+//		System.out.println("this is method m1 ");
+//	}
+//
+	public Student() {
+		System.out.println("this is Constructor in java ");
+	}
+
+//	public Student(int a, int b) {
+//		System.out.println("this is parameterised Constructor in java ");
+//	}
+
+//	public Student(String fname, String lname, int age, long mobNo, String email) {
+//		System.out.println("my Informations --> ");
+//		System.out.println("First Name --> " + fname);
+//		System.out.println("Last Name --> " + lname);
+//		System.out.println("My Age --> " + age);
+//		System.out.println("Mobile No --> " + mobNo);
+//		System.out.println("Email --> " + email);
+//
+//	}
+
+}
+
+
+
+
+
+package com.tka;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Student s = new Student();
+//		Student s = new Student("Ram", "Yadav", 34, 23456789876l, "ram@gmail.com");
+//		s.m1();
+		
+		
+//	System s = new System();		
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

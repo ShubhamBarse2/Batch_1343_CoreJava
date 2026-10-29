@@ -1,0 +1,47 @@
+Todays Lecture Agenda : 
+
+Constructor : 
+
+it is special type of method but does not have return type(don't except as void also) whose name same as class Name 
+
+syntax : 
+
+AccessSpecifier ClassName(){
+
+
+}
+
+when ur creating an object of any class then Constructor will get automatically called(Invoked) 
+no need to explicitly called cnstrs 
+
+Compiler will provide u default Constructor
+
+supposed if u want to execute anything before method then that code write inside an Cosntr 
+
+contrs have whole information about the particular class 
+
+if we provide return type to the constr so it will become method
+
+
+Contrs is mainly used for Initializing of Object  
+
+Types of Constructor : 
+
+1. Non Parameterised Cosntr
+2. Parameterised Constr 
+
+
+
+int a = 34;
+
+ClassName refName = new ClassName();
+
+Student s = new Student();
+
+
+
+
+
+ 
+
+
