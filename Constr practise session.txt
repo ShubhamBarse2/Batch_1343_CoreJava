@@ -1,0 +1,130 @@
+Practice Questions
+Q1. Student Management System
+
+Create a Student class with the following private variables:
+- studentId
+- studentName
+- marks
+Create a parameterized constructor to initialize all variables. Create getter and setter methods. Create a method displayResult() that displays whether the student has passed or failed.
+
+Condition: Marks greater than or equal to 35 means Pass.
+
+Q2. Bank Account Management
+
+Create a BankAccount class with:
+- accountNumber
+- accountHolderName
+- balance
+Requirements:
+1. Initialize details using a constructor.
+2. Make all variables private.
+3. Create a deposit(double amount) method.
+4. Create a withdraw(double amount) method.
+5. Create a displayBalance() method.
+Condition: Withdrawal should not be allowed if the amount exceeds the available balance.
+
+Q3. Employee Salary Calculator
+
+Create an Employee class with employee ID, name, and basic salary.
+
+Create a constructor to initialize employee details.
+
+Create the following methods:
+- calculateHRA() – 20% of basic salary.
+- calculateDA() – 10% of basic salary.
+- calculateGrossSalary() – Basic salary + HRA + DA.
+- displayEmployeeDetails() – Display complete details and gross salary.
+
+Q4. Product Billing System
+
+Create a Product class with product ID, product name, price, and quantity.
+
+Requirements:
+1. Initialize details using a parameterized constructor.
+2. Create a method to calculate the total price.
+3. Apply a 10% discount if the total price exceeds ₹5,000.
+4. Display the final bill.
+
+Q5. Mobile Recharge System
+
+Create a MobileRecharge class with mobile number, customer name, and balance.
+
+Create methods:
+- recharge(double amount)
+- makeCall(double callCost)
+- checkBalance()
+Conditions:
+- Recharge should increase the balance.
+- A call should be allowed only if sufficient balance is available.
+- Display an appropriate message after every transaction.
+
+Q6. Rectangle Calculator
+
+Create a Rectangle class with private length and breadth.
+
+Requirements:
+1. Initialize values using a constructor.
+2. Create a method to calculate area.
+3. Create a method to calculate perimeter.
+4. Create a method to check whether the rectangle is a square.
+5. Display all results.
+
+Q7. ATM Withdrawal System
+
+Create an ATM class with private account number, PIN, and balance.
+
+Requirements:
+1. Initialize account details using a constructor.
+2. Create a method validatePin(int pin).
+3. Create a method withdraw(int enteredPin, double amount).
+4. Create a method checkBalance(int enteredPin).
+Conditions:
+- Allow withdrawal only when the PIN is correct.
+- Withdrawal amount must be greater than zero.
+- Sufficient balance must be available.
+- Do not allow direct access to private variables.
+
+Q8. Electricity Bill Calculator
+
+Create an ElectricityBill class with customer name and units consumed.
+
+Create a constructor and the following methods:
+Units consumed	Rate per unit
+0–100	₹2
+101–200	₹3
+Above 200	₹5
+
+Calculate the electricity bill using slab-wise charges.
+
+For example, if consumption is 250 units:
+- First 100 units = 100 × 2
+- Next 100 units = 100 × 3
+- Remaining 50 units = 50 × 5
+Display the final bill.
+
+Q9. Library Book Management
+
+Create a Book class with private variables:
+- bookId
+- bookName
+- authorName
+- availableCopies
+Create a constructor and methods:
+- issueBook() – Decrease available copies.
+- returnBook() – Increase available copies.
+- displayBookDetails() – Display book information.
+Condition: A book cannot be issued if no copies are available.
+
+Q10. Shopping Cart System
+
+Create a ShoppingCart class with private variables:
+- customerName
+- productName
+- price
+- quantity
+Requirements:
+1. Initialize values using a parameterized constructor.
+2. Create a method to calculate the total amount.
+3. Apply a 5% discount if the total amount is above ₹2,000.
+4. Apply an additional 10% discount if the total amount is above ₹5,000 instead of 5%.
+5. Create a method to display the final bill.
