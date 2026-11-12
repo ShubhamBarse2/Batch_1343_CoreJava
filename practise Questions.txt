@@ -1,0 +1,119 @@
+Q5. Student Constructor
+
+Create a Student class with variables rollNo, name, and marks.
+
+Requirements:
+- Initialize all variables using a parameterized constructor.
+- Create a method to display student details.
+- Create three student objects with different information.
+Q6. Rectangle Area
+
+Create a Rectangle class with length and breadth.
+
+Requirements:
+- Initialize values using a parameterized constructor.
+- Create an area() method to calculate the area.
+- Create a perimeter() method to calculate the perimeter.
+- Display both results.
+Q7. Constructor Overloading
+
+Create a Calculator class with overloaded constructors.
+
+Requirements:
+- Default constructor initializes two numbers to 0.
+- Parameterized constructor initializes two numbers with given values.
+- Create methods for addition and multiplication.
+- Test both constructors by creating different objects.
+Q8. Movie Ticket Booking
+
+Create a MovieTicket class with:
+- movieName
+- customerName
+- ticketPrice
+- numberOfTickets
+Requirements:
+- Initialize all variables using a parameterized constructor.
+- Calculate the total ticket amount.
+- If the total amount exceeds ₹1000, provide a 10% discount.
+- Display the final payable amount.
+Section 3: Methods (Questions 9–11)
+Q9. Electricity Bill Calculator
+
+Create an ElectricityBill class with a method calculateBill(int units).
+
+Apply the following conditions:
+Units consumed	Rate per unit
+0–100	₹2
+101–200	₹3
+Above 200	₹5
+
+Calculate and display the electricity bill.
+
+Q10. Number Analysis
+
+Create a NumberAnalyzer class with the following methods:
+- checkEvenOdd(int number)
+- checkPositiveNegative(int number)
+- checkDivisibleBy5(int number)
+- checkGreater(int a, int b)
+Call all methods from the main method.
+
+Q11. Employee Bonus Calculation
+
+Create an Employee class with a method calculateBonus(int salary, int experience).
+
+Conditions:
+- Experience greater than or equal to 5 years: 20% bonus.
+- Experience between 3 and 4 years: 10% bonus.
+- Experience less than 3 years: 5% bonus.
+Calculate and display the bonus and final salary.
+Section 4: If-Else Logical Programs (Questions 12–15)
+Q12. Student Grade Calculator
+
+Accept student marks and display grades according to the following conditions:
+Marks	Grade
+90–100	A+
+80–89	A
+70–79	B
+60–69	C
+40–59	D
+Below 40	Fail
+
+Also validate that marks are between 0 and 100.
+
+Q13. ATM Withdrawal System
+
+Create a Java program that accepts:
+- Account balance
+- Withdrawal amount
+Conditions:
+- Withdrawal amount must be greater than zero.
+- Withdrawal amount must be a multiple of 100.
+- Withdrawal amount must not exceed account balance.
+- If all conditions are satisfied, display the remaining balance.
+Q14. Triangle Type Checker
+
+Accept three sides of a triangle.
+
+Requirements:
+- Check whether the given sides form a valid triangle.
+- If valid, identify whether it is:
+  - Equilateral triangle
+  - Isosceles triangle
+  - Scalene triangle
+Q15. Online Shopping Discount System
+
+Create a Java program to calculate the final shopping amount.
+
+Apply the following discount conditions:
+Shopping amount	Discount
+Below ₹1,000	0%
+₹1,000–₹4,999	5%
+₹5,000–₹9,999	10%
+₹10,000 and above	20%
+
+Display:
+- Original amount
+- Discount percentage
+- Discount amount
+- Final payable amount
