@@ -1,0 +1,172 @@
+
+Polymorphism in java : 
+
+Meaning of Polymorphism :
+
+-> Polymorphism means “one task, many forms.”
+poly --> single  morphism --> Types , Versions , ManyForm  
+Java --> 1,2,3,4,5,6 ...25
+Person -> Teacher , student , dad 
+
+
+in java : Same method name but Different behavior 
+
+
+
+Example (real-life): 
+A person is a teacher in college
+A person is a father at home
+A person is a customer in a shop
+  
+->  Same person, different roles.
+
+
+Polymorphism is an OOP concept where:
+One method or object behaves differently at different situations.
+
+
+
+Types of Polymorphism in Java : 
+
+Java supports two types of polymorphism :
+
+Type	         Also Called	        Achieved Using
+
+Compile-time	Static Polymorphism	Method Overloading
+Run-time	Dynamic Polymorphism	Method Overriding
+
+
+1> Method Overloading : 
+
+What is Method Overloading?
+When:
+Same method name
+Same class
+Different parameters (number / type / order)
+It is called Method Overloading.
+
+
+Conditions for Method Overloading
+
+At least one of these must change :
+ Number of parameters
+ Data type of parameters
+ Order of parameters
+
+
+
+Syntax for Method Overloading  : 
+
+class ClassName {
+
+    returnType methodName(parameters) {
+        // code
+    }
+
+    returnType methodName(different parameters) {
+        // code
+    }
+}
+
+
+
+
+Constructor can be overloaded  --> Yes 
+main method can be overloaded --> Yes 
+
+
+
+Why Polymorphism is Required : 
+
+Polymorphism helps to :
+Achieve flexibility
+Reduce code duplication
+Support dynamic behavior
+Improve maintainability
+Implement real-time applications
+
+
+Why it is Compile-Time Polymorphism?
+Because method selection is done at compile time based on arguments.
+
+
+
+Compile-time polymorphism means :
+
+Method call is decided at compile time, not at runtime.
+In Java, compile-time polymorphism is achieved using:
+Method Overloading
+
+
+Why it is called Compile-Time Polymorphism
+
+Because:
+The compiler decides which method to call
+Decision is based on method parameters
+Happens before program execution
+
+
+
+
+
+
+Practise Questions on Polymorphisms : 
+
+1.Create a class Calculator and overload add() to add:
+two integers
+three integers
+
+2.Overload a method multiply() to multiply:
+two int values
+two double values
+
+3.Create a method area() to calculate:
+area of circle
+area of rectangle
+
+4.Overload a method display() to print:
+integer value
+string value
+
+5.Overload sum() using different data types:
+sum(int, int)
+sum(float, float)
+
+6.Create a class Demo and overload show() using:
+(int, String)
+(String, int)
+
+7. Overload a constructor in a Student class to initialize:
+default values
+only id
+id and name
+
+8. Overload a static method print() with:
+one parameter
+two parameters
+
+9. Can you overload the main() method? Write a program to prove it.
+
+10.Overload a method calculate() to find:
+square of a number
+cube of a number
+
+11. Create a method max() to find maximum of:
+two numbers
+three numbers
+
+12. Overload details() method to display:
+name
+name and age
+
+13. Overload a method convert() to convert:
+Celsius to Fahrenheit
+Fahrenheit to Celsius
+
+14. Write a program to show that return type alone cannot overload a method.
+15. Overload a method login() with:
+username
+username and password
+
+
+
