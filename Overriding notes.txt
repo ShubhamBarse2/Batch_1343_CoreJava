@@ -1,0 +1,50 @@
+Method Overriding :
+
+Method Overriding is a feature of Java in which a child class provides its own implementation of a method that is already defined in its parent class, with the same method name and same parameters.
+It is used to achieve Runtime Polymorphism.
+
+
+
+Why We Need Method Overriding ?
+When parent class behavior is not sufficient and child class wants to change or specialize that behavior.
+ Parent defines general behavior
+ Child modifies specific behavior
+
+
+
+Basic Syntax : 
+
+
+
+class Parent {
+    void methodName() {
+        // parent implementation
+    }
+}
+
+class Child extends Parent {
+    @Override
+    void methodName() {
+        // child implementation
+    }
+}
+
+
+
+
+
+
+Important Rules of Method Overriding :
+
+Method name must be same
+Parameters must be same
+Return type must be same (or covariant return type)
+Access modifier cannot be more restrictive
+Only happens in inheritance
+Cannot override :
+final method
+static method
+private method
+
+
+
