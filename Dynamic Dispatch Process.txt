@@ -1,0 +1,43 @@
+Dynamic Dispatch Process : 
+
+
+int a;
+a= 23;
+
+String name;
+name = "ram";
+
+Student stud;   reference creation 
+stud = new Student();
+
+
+in case of Interface : 
+
+Authentication auth;
+auth = new GoogleAuth(); 
+
+Authentication auth;
+auth = new InstaGramAuth(); 
+
+
+class Dog extends Animal {
+
+Animal a;
+a = new Dog();
+
+
+
+Dog  d = new Dog();
+}
+
+
+
+Student stud = new Student();  Object Creation
+
+
+
+by using Method : 
+
+public Student m1() {
+return new Student();
+}
