@@ -1,0 +1,318 @@
+
+What is an Abstract Class?
+
+An abstract class in Java is a class that cannot be instantiated (object cannot be created) and is used to achieve partial abstraction.
+It may contain:
+Abstract methods (methods without body)
+Concrete methods (methods with body)
+Variables
+Constructors
+
+ Abstract class is declared using the abstract keyword.
+
+
+Why Do We Need an Abstract Class?
+To hide implementation details
+To provide a common base class
+To force child classes to implement specific methods
+To achieve partial abstraction (0–100%)
+Real-life idea:
+A blueprint – not complete, but gives structure.
+
+
+
+
+Syntax of Abstract Class : 
+
+abstract class ClassName {
+    abstract void method1();   // abstract method
+    void method2() {            // concrete method
+        // implementation
+    }
+}
+
+
+
+
+
+Abstract Method :
+Declared using abstract
+No method body
+Ends with a semicolon ;
+Must be implemented by child class
+abstract void display();
+
+
+
+Rules of Abstract Class (Very Important)
+
+Cannot create object of abstract class
+ new AbstractClass();
+Can contain abstract and non-abstract methods
+Can have constructors
+Can have instance variables and static variables
+If a class contains at least one abstract method, the class must be abstract
+Child class must override all abstract methods, otherwise child must also be abstract
+Abstract class can extend another abstract class
+
+
+
+
+Constructor in Abstract Class :
+✔ Allowed
+✔ Used to initialize variables
+
+
+
+
+
+When to Use Abstract Class?
+
+When classes are closely related
+When you want to share code
+When some methods are common and some must be implemented by child
+When you need constructors or instance variables
+
+
+
+
+
+Interface :(Before java 8)
+only abstract methods allowed  
+public static final variables allowed          
+
+
+Concreate class :
+concreate methods 
+variable 
+constructor 
+
+
+abstract class :
+
+allowed abstract methods as well as non-abstract method(concreate method)
+Constructor 
+variables 
+
+note : (in abstract class we have constructor but we cannot object of this class bcz it contains abstract methods(so some information is hidden))
+
+
+
+Note : 
+
+Possibility : 
+
+class extends class 
+class implements interface
+interface extends interface 
+
+
+What we can write inside abstract class : 
+
+syntax : 
+
+
+public abstract class A {
+
+public String name;
+
+A(){
+
+}
+
+public abstract void m1();
+
+public void m2() {
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+Practise Questions Based on Interface & Abstract class : 
+
+
+ Banking System
+Create an abstract class BankAccount with:
+variables: accountNumber, balance
+abstract method: calculateInterest()
+concrete method: deposit()
+Create subclasses:
+SavingsAccount
+CurrentAccount
+
+
+Food Delivery App (like Zomato/Swiggy)
+Create abstract class FoodOrder with:
+abstract method calculateBill()
+concrete method printReceipt()
+Subclasses:
+DineInOrder
+OnlineOrder
+
+
+ Ride Booking App (like Uber/Ola)
+Create abstract class Ride with:
+abstract method calculateFare(distance)
+concrete method startRide()
+Subclasses:
+MiniRide
+PrimeRide
+
+E-Commerce Platform (like Amazon)
+Create abstract class Product with:
+abstract method calculateDiscount()
+concrete method displayProductDetails()
+Subclasses:
+Electronics
+Clothing
+
+    
+Employee Management System
+Create abstract class Employee with:
+abstract method calculateSalary()
+concrete method getEmployeeDetails()
+Subclasses:
+FullTimeEmployee
+PartTimeEmployee
+
+
+Vehicle Service System
+Create abstract class Vehicle with:
+abstract method startEngine()
+concrete method stopEngine()
+Subclasses:
+Car
+Bike
+
+
+ Online Course Platform
+Create abstract class Course with:
+abstract method calculateDuration()
+concrete method courseDetails()
+Subclasses:
+JavaCourse
+PythonCourse
+
+
+Hospital Management
+Create abstract class MedicalStaff with:
+abstract method performDuty()
+concrete method getStaffDetails()
+Subclasses:
+Doctor
+Nurse
+
+
+Payment Gateway
+Create abstract class Payment with:
+abstract method makePayment(amount)
+concrete method generateReceipt()
+Subclasses:
+UPIPayment
+CardPayment
+
+
+Streaming Platform (like Netflix)
+Create abstract class Subscription with:
+abstract method calculatePrice()
+concrete method subscriptionDetails()
+Subclasses:
+BasicPlan
+PremiumPlan
+
+
+
+ Payment System
+Create interface PaymentMethod with:
+method pay(double amount)
+Implement:
+CreditCard
+UPI
+NetBanking
+
+
+ Smart Device
+Create interface SmartDevice with:
+method turnOn()
+method turnOff()
+Implement:
+SmartFan
+SmartLight
+
+
+ Notification System
+Create interface NotificationService with:
+method sendNotification(String message)
+Implement:
+EmailNotification
+SMSNotification
+WhatsAppNotification
+
+
+Shape Calculator
+Create interface Shape with:
+method calculateArea()
+Implement:
+Circle
+Rectangle
+Triangle
+
+
+ Authentication System
+Create interface Login with:
+method authenticate()
+Implement:
+GoogleLogin
+FacebookLogin
+OTPLogin
+
+
+Vehicle Features
+Create interface ElectricVehicle with:
+method chargeBattery()
+Implement:
+ElectricCar
+ElectricBike
+
+
+Media Player
+Create interface MediaPlayer with:
+method play()
+method pause()
+Implement:
+AudioPlayer
+VideoPlayer
+
+
+Cloud Storage System
+Create interface CloudStorage with:
+method uploadFile()
+method downloadFile()
+Implement:
+GoogleDrive
+Dropbox
+
+
+ Online Shopping Discount
+Create interface DiscountPolicy with:
+method applyDiscount()
+Implement:
+FestivalDiscount
+MemberDiscount
+
+
+ Messaging App
+Create interface MessageSender with:
+method sendMessage()
+Implement:
+TelegramSender
+WhatsAppSender
+SignalSender
