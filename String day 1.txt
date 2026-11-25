@@ -1,0 +1,97 @@
+Todays Lecture Agenda : 
+
+String in java : 
+
+1. String is an collection of characters / Sequence of characters 
+also it is an built in class which is present in java.lang , no need explicitly import this package (its by default imported) 
+
+2. it is an non-Primitive datatype because it is an Class which is provided by the java 
+
+supposed if u want to store anything so we used string(Numeric value alphabets)ex(Pancard Numbers) 
+it contains built in methods like as interns() , toString() , equals()...
+
+3. String is an case- Sensitive : (hello & Hello -> (different))
+4. String is an Immutable(cannot be changed)(if we declared any string so we cannot be changed)
+
+5. we can create String by using two ways : 
+
+1> by using String Literals (String name ="Ram")
+2> by using Object Creation (String name = new String("Vishal")) --> (Heap)
+
+
+
+Immutable  -> cannot be changed 
+
+Mutable -> can be changed
+
+
+ref Code  : 
+
+
+
+package com.tt;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+//		String str1 = new String("Hello");
+//		String str2 = new String("Hello");
+////
+//		System.out.println(str1.hashCode());
+//		System.out.println(str2.hashCode());
+////
+//		System.out.println(str1 == str2);
+//		System.out.println(str1.equals(str2));
+
+//		String str1 = "Ram";
+//		String s =str1.concat("yadav");
+//
+////		System.out.println(str1 == str2);
+////		System.out.println(str1.equals(str2));
+//
+//		System.out.println(s);
+
+//		String str1 = new String("Hello");
+//		String str2 = new String("Hello");
+////
+//		System.out.println(System.identityHashCode(str1));
+//		System.out.println(System.identityHashCode(str2));
+//
+//		System.out.println(str1 == str2);
+//
+
+	}
+
+}
+
+
+
+What is Literal in Java?
+A literal is a fixed value directly written in the code.
+When you write a value directly in your program, that value is called a literal.
+
+
+What is SCP (String Constant Pool) in Java?
+SCP (String Constant Pool) is a special memory area inside the Heap where Java stores string literals to save memory.
+Java does not create duplicate string objects if the value is the same.
+It reuses the existing string from SCP.
+
+
+Why SCP is Used?
+Save memory
+Improve performance
+Avoid duplicate objects
+
+
+note : SCP is a memory area where Java stores unique string literals
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+Reverse a String
+Input: "Java"
+Output: "avaJ"
+(Use loop and charAt())
+
+
+
+Check Palindrome String
+Input: "madam"
+Output: "Palindrome"
+(Use if-else and loop)
+
+
+
+Count Vowels and Consonants
+Input: "Education"
+Output: Vowels = ?, Consonants = ?
+(Use switch or if condition)
+
+
+
+
+Count Uppercase and Lowercase Characters
+Input: "JavaTrainer"
+Output: Uppercase = ?, Lowercase = ?
+Check String is Empty or Not
+If string is empty → print "String is empty"
+Else → print "String is not empty"
+
+
+
+
+Remove All Spaces from String
+Input: "Java is powerful"
+Output: "Javaispowerful"
+(Without using replace() method)
+
+
+
+Print Each Character in Separate Line
+Input: "Core"
+Output:
+C
+o
+r
+e
+
+
+
+Count Number of Digits in String
+Input: "Java1234"
+Output: Digits = 4
+Toggle Case of Each Character
+Input: "JaVa"
+Output: "jAvA"
+(Upper → Lower, Lower → Upper)
+
+
+
+
+Find First Non-Repeated Character
+Input: "success
+Output: "u"
+(Using nested loop, no array)
+
+
