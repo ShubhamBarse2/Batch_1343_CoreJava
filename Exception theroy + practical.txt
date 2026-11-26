@@ -1,0 +1,134 @@
+ 	
+Todays Lecture Agenda : 
+
+Exception Handling in java : 
+
+Exception --> Exception is an Unwanted Situation / Error which occurred during the execution of program
+Exception Handling --> this is an process where we can handle type of Exception
+
+Exception is also class in java which is present in java.lang package 
+
+when the Exception is occurred in ur program then program will get stop also it provides information related to the Exception
+which type of Exception , from where it Comes , why it comes 
+
+there r 56 thousand + classes r present to handle Exception : 
+
+there r two Types of Exceptions : 
+
+1. Compile Time Exception(Checked Exception)
+2. Run Time Exception(Unchecked Exception) 
+
+note :  there is an Difference betn Error & Exception 
+
+
+
+How we can handle the Exception : 
+
+1. try , catch , finally block 
+2. by using throw Keyword
+3. by using throws Keyword 
+
+
+
+
+try --> risky code (write code where Exception is occurred)
+catch --> inside catch block mentioned which type of Exception is occurred(also write one msg to User)
+finally --> it is always executable block( used for to close the Connection)
+
+
+
+
+syntax : 
+
+
+
+
+try {
+ // Risky code 
+} catch() {
+ // MSG to User
+
+}finally {
+// always Executable block
+
+}
+
+
+
+Example of Exception :
+
+1. ClassNotFoundException 
+2. SqlException
+3. ArithematicExection
+4. NullPointerException 
+5. InputMissmatchException
+etc
+ 
+
+
+
+example : 
+
+
+
+package com.tka;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+//		System.out.println(4 / 2); // OFC
+//		System.out.println(4 / 4);
+//		System.out.println(14 / 2);
+//		System.out.println(4 / 1);
+//
+//		try {
+//			System.out.println(2 / 0);
+//		} catch (ArithmeticException e) {
+//			System.out.println(" /  by zero -->  this is not possible ");
+//		}
+//
+//		System.out.println(34 / 2);
+//		System.out.println(44 / 2); // ghar
+//
+//	}
+
+//		try {
+//			Class.forName("");
+//		} catch (ClassNotFoundException e) {
+//			System.out.println("this is Example of Compile Time Exception");
+//		}
+
+//		try {
+//			System.out.println(3/0);
+//		} catch(Exception e){
+//			System.out.println("this is not Allowed / by 0");
+//		}finally {
+//			System.out.println("this is finally block ");
+//		}
+
+//		try {
+//			System.out.println(3 / 0);
+//			Class.forName("");
+//		} catch (ArithmeticException e) {
+//			System.out.println("this is not Allowed / by 0");
+//		} catch (ClassNotFoundException e) {
+//			System.out.println("this class in not found");
+//		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
